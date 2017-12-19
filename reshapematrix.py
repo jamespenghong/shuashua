@@ -18,3 +18,9 @@ class Solution:
         
         """对矩阵进行转置，我这个是比较笨的方法了。
         """
+# def matrixReshape(self, A, nR, nC):
+#     if len(A) * len(A[0]) != nR * nC:
+#         return A
+        
+#     vals = (val for row in A for val in row)
+#     return [[vals.next() for c in xrange(nC)] for r in xrange(nR)]
